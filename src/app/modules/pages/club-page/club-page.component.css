@@ -1,0 +1,170 @@
+.home-inner {
+    background-image: url("/assets/images/Fotos/portadaClub.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+
+}
+.caption h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 150px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+
+
+
+
+
+
+
+
+
+div h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.25px;
+    color: #060505;
+    padding: 100px 0 50px 100px;
+}
+input[type=text]{
+    width: 293.29px;
+    height: 54px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+    margin:30px 100px;
+}
+input[type=submit]{
+    width: 221px;
+    height: 39px;
+    background: linear-gradient(0deg, rgba(46, 49, 146, 0.9), rgba(46, 49, 146, 0.9)), rgba(46, 49, 146, 0.9);
+    opacity: 0.9;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.25px;
+    color: #060505;
+    padding: 50px 0 20px 100px;
+}
+.card{
+    width: 70%;
+    margin:30px 0 30px 80px;
+    background: #EFF0E9;
+    
+}
+.card .card-body{
+    height: 100px;
+    
+}
+.card .card-imd-top{
+    height: 250px;
+}
+.card .card-body .card-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 23px;
+    letter-spacing: 0.15px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+}
+.card .card-body .card-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+}
+
+
+.box{
+    width: 70%;
+    margin:30px 0 30px 80px;
+    background: #EFF0E9;
+    border: 1px solid black;
+}
+.box .box-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+    margin:20px 100px 20px 40px;
+}
+
+.box .box-show{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    border: 1px solid black;
+    margin:20px 100px 20px 40px;
+    padding: 10px;
+}
