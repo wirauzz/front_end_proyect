@@ -1,0 +1,134 @@
+.home-inner {
+    background-image: url("/assets/images/Fotos/portadaCom.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.caption h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 117px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.5px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+
+
+
+
+
+
+.tab input.tabs{
+    position: absolute;
+}
+.tab{
+    width: 90%;
+    list-style-type: none;
+    position: relative;
+    padding: 0px;
+    margin: 75px auto;
+}
+
+.tab li{
+    float: left;
+    width: auto;
+}
+
+.tab label{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    top: 3;
+    background: linear-gradient(0deg, #71CFF9, #71CFF9), #71CFF9;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.tab label:hover{
+    background: linear-gradient(0deg, #6769B1, #6769B1), rgba(46, 49, 146, 0.9);
+    opacity: 0.9;
+}
+
+.tabs:checked + label{
+    background: linear-gradient(0deg, #44479E, #44479E), #44479E;
+    opacity: 0.9;
+}
+
+.tabs:checked ~ .tab_content, .players:checked ~ .players_content{
+    display: block;
+}
+
+.tab_content{
+    background-image: white;
+    box-sizing: border-box;
+    color: black;
+    display: none;
+    left: 0;
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 10px;
+    line-height: 140%;
+    min-height: 500px;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    z-index: 2;
+    animation-duration: 0.5s;
+}
+.card{
+    width: 80%;
+    margin:30px 50px;
+    background: #4FC3F7;
+}
+.card .card-imd-top{
+    height: 300px;
+}
+.card .card-body .card-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #F2FFFD;
+}
+.card .card-body .card-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 35px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color:black;
+}
