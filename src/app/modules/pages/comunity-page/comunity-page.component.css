@@ -1,44 +1,32 @@
-.home-inner {
+.big-banner {
     background-image: url("/assets/images/Fotos/portadaCom.jpg");
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    border-radius: 0;
+    height: 400px;
 }
-.caption {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-}
-.caption h1 {
+
+.big-banner h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 100px;
-    line-height: 117px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
+    font-size: calc(60px + (100 - 60) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: -1.5px;
-
     color: #FFFFFF;
-
     mix-blend-mode: normal;
+    margin-top: 60px;
+    margin-left: 40px;
 }
 
 
 
 
 
-
-
+.container-fluid{
+    background-color: #FFFCD0;
+    position: relative;
+}
 .tab input.tabs{
     position: absolute;
 }
@@ -57,9 +45,12 @@
 
 .tab label{
     display: block;
-    padding: 10px 20px;
+    padding-top: calc(7px + 5 * ((100vw - 300px) / (1600 - 300)));
+    padding-bottom: calc(7px + 5 * ((100vw - 300px) / (1600 - 300)));
+    padding-right: calc(7px + 20 * ((100vw - 300px) / (1600 - 300)));
+    padding-left: calc(7px + 20 * ((100vw - 300px) / (1600 - 300)));
     color: white;
-    font-size: 20px;
+    font-size: calc(15px + 5 * ((100vw - 300px) / (1600 - 300)));
     position: relative;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
@@ -103,12 +94,14 @@
     animation-duration: 0.5s;
 }
 .card{
-    width: 80%;
-    margin:30px 50px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-left:calc(20px + 20 * ((100vw - 300px) / (1600 - 300)));
     background: #4FC3F7;
 }
 .card .card-imd-top{
-    height: 300px;
+    height: 250px;
 }
 .card .card-body .card-title{
     font-family: Roboto;
