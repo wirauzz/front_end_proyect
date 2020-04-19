@@ -5,13 +5,14 @@
     background-size: cover;
     border-radius: 0;
     height: 400px;
+    width: 100%;
 }
 
 .big-banner h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: calc(60px + (100 - 60) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(50px + (100 - 60) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: -1.5px;
     color: #FFFFFF;
     mix-blend-mode: normal;
@@ -23,9 +24,18 @@
 
 
 
-.container-fluid{
-    background-color: white;
-    position: relative;
+.container{
+    max-width: 1600px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .tab input.tabs{
     position: absolute;
@@ -37,28 +47,30 @@
     padding: 0px;
     margin: 75px auto;
 }
-
+.tab input{
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
 .tab li{
     float: left;
     width: auto;
 }
 
 .tab label{
-    display: block;
-    padding-top: calc(7px + 5 * ((100vw - 300px) / (1600 - 300)));
-    padding-bottom: calc(7px + 5 * ((100vw - 300px) / (1600 - 300)));
-    padding-right: calc(7px + 20 * ((100vw - 300px) / (1600 - 300)));
-    padding-left: calc(7px + 20 * ((100vw - 300px) / (1600 - 300)));
+    padding-top: calc(5px + 5 * ((100vw - 300px) / (1600 - 300)));
+    padding-bottom: calc(5px + 5 * ((100vw - 300px) / (1600 - 300)));
+    padding-right: calc(1px + 20 * ((100vw - 300px) / (1600 - 300)));
+    padding-left: calc(1px + 20 * ((100vw - 300px) / (1600 - 300)));
     color: white;
-    font-size: calc(15px + 5 * ((100vw - 300px) / (1600 - 300)));
-    position: relative;
+    font-size: calc(12px + 5 * ((100vw - 300px) / (1600 - 300)));
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    top: 3;
     background: linear-gradient(0deg, #71CFF9, #71CFF9), #71CFF9;
     opacity: 0.9;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: calc(5px + 20 * ((100vw - 300px) / (1600 - 300)));
 }
 
 
@@ -93,6 +105,9 @@
     z-index: 2;
     animation-duration: 0.5s;
 }
+.div{
+    display: block;
+}
 .card{
     width: 100%;
     margin-top: 30px;
@@ -107,7 +122,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
+    font-size: calc(25px + 10 * ((100vw - 300px) / (1600 - 300)));
     line-height: 35px;
     align-items: center;
     text-align: center;
@@ -118,7 +133,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: 25px;
+    font-size: calc(20px + 5 * ((100vw - 300px) / (1600 - 300)));
     line-height: 35px;
     align-items: center;
     text-align: center;
