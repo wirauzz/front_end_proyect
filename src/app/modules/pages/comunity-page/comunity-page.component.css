@@ -118,11 +118,14 @@
 .card .card-imd-top{
     height: 250px;
 }
+.card .card-body{
+    box-sizing: content-box;
+}
 .card .card-body .card-title{
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: calc(25px + 10 * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(18px + 5 * ((100vw - 300px) / (1600 - 300)));
     line-height: 35px;
     align-items: center;
     text-align: center;
@@ -133,7 +136,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
-    font-size: calc(20px + 5 * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + 2 * ((100vw - 300px) / (1600 - 300)));
     line-height: 35px;
     align-items: center;
     text-align: center;
