@@ -83,8 +83,6 @@ button{
 
 
 
-
-
 .answer{
     position: relative;
     height: calc(300px + 100 * ((100vw - 300px) / (1600 - 300)));
@@ -112,6 +110,8 @@ button{
     background-size: cover;
     margin-left: 0;
 }
+
+
 
 
 
