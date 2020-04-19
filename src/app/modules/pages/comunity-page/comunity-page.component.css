@@ -112,7 +112,6 @@
     width: 100%;
     margin-top: 30px;
     margin-bottom:30px;
-    margin-left:calc(20px + 20 * ((100vw - 300px) / (1600 - 300)));
     background: #4FC3F7;
 }
 .card .card-imd-top{
